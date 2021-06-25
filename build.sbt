@@ -169,7 +169,7 @@ lazy val docs = project
 
 val catsV = "2.6.1" //https://github.com/typelevel/cats/releases
 val catsEffectV = "3.1.1" //https://github.com/typelevel/cats-effect/releases
-val specs2V = "4.12.1" //https://github.com/etorreborre/specs2/releases
+val specs2V = "4.12.2" //https://github.com/etorreborre/specs2/releases
 val disciplineSpecs2V = "1.1.6"
 val circeV = "0.14.1" //https://github.com/circe/circe/releases
 val http4sV = "1.0.0-M23" //https://github.com/http4s/http4s/releases
