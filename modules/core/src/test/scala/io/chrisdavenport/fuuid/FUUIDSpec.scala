@@ -47,4 +47,11 @@ class FUUIDSpec extends CatsEffectSuite {
   test("FUUID.fuuid compile for a literal") {
     FUUID.fuuid("00000000-075b-cd15-0000-0000075bcd15")
   }
+
+  test("FUUID.fuuid fail at compile-time when passed an invalid uuid") {
+    assert(
+      compileErrors("FUUID.fuuid(\"2630147c-4a18-4866-9bbd-b2d89acef83z\")")
+        .contains("error: Error at index 11 in:")
+    )
+  }
 }

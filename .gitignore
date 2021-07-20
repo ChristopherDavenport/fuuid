@@ -10,3 +10,7 @@ tags
 project/metals.sbt
 .bsp
 .DS_Store
+
+# sbt
+project/project/
+project/target/

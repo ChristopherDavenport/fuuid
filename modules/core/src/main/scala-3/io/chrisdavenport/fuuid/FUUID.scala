@@ -110,7 +110,7 @@ object FUUID {
   import scala.compiletime.error
 
   private[FUUID] object Macros {
-    def fuuidLiteral(s: Expr[String])(using qctx: Quotes): Expr[FUUID] =
+    def fuuidLiteral(s: Expr[String])(using qctx: Quotes): Expr[FUUID] = {
       import qctx.reflect.*
       import quotes.reflect.report
 
@@ -137,6 +137,7 @@ object FUUID {
             pos
           )
       }
+    }
   }
 
   /**
