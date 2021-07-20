@@ -141,7 +141,7 @@ val doobieV = "1.0.0-M5" //https://github.com/tpolecat/doobie/releases
 val scalaJavaTimeV = "2.3.0" // https://github.com/cquiroz/scala-java-time/releases
 val testcontainersV = "0.39.5"
 val munitV = "0.7.26"
-val munitCE3V = "1.0.3"
+val munitCE3V = "1.0.5"
 val disciplineMunit = "1.0.9"
 
 // General Settings
